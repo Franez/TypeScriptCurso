@@ -5,4 +5,19 @@
     console.log(cosas);
     const villians = ['Omega Rojo', 'Dormammu', 'Duende Verde'];
     villians.forEach(villano => console.log(villano.toUpperCase()));
+
+    //objetos literales
+    var persona = {
+        nombre: 'Francisco',
+        apellido: 'Lopez'
+    }
+    console.log(persona.nombre);
+    // otra forma equivalente de obtener el valor de una llave utilizando corchetes cuadrados ([]) 
+    console.log(persona['nombre'])
+    
+    var llave = ['nombre'];
+    console.log(persona[llave]);
+
+
+
 })();
